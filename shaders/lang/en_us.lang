@@ -46,8 +46,48 @@ profile.comment=\
 	to your device..
 
 screen.EFFECTS=Effects & post-processing
+option.GODRAYS=Godrays
+option.NIGHT_DESATURATION_EFFECT=Night desaturation (Purkinje)
+option.TONEMAP=Tonemap
+value.TONEMAP.TONEMAP_UCHIMURA=Uchimura (Gran Turismo)
+value.TONEMAP.TONEMAP_UNCHARTED2=Hable (Uncharted 2)
+option.SATURATED_TONEMAP=Satured Hable Tonemap
+option.WAVING_FOLIAGE=Waving foliage (wind)
+
 screen.WATER=Water & stained glass
+option.SCREENSPACE_REFLECTIONS=Reflections (screen-space)
+option.SCREENSPACE_REFRACTION=Refraction (screen-space)
+option.WATER_SURFACE=Water surface
+value.WATER_SURFACE.NOISE=Waves (noise)
+value.WATER_SURFACE.BASIC=Waves (basic)
+option.FANCY_TRANSLUCENTS=All water/ice effects
+option.VANILLA_ISH_WATER=Vanilla-like water texture
+option.WATER_CAUSTICS=Underwater Caustics
+option.NUM_CAUSTICS=Number of caustic waves
+option.WATER_CAUSTICS_DISTANCE=Caustics Distance
+value.WATER_CAUSTICS_DISTANCE.8.0=Minimum (8 blocks)
+value.WATER_CAUSTICS_DISTANCE.16.0=Very Low (16 blocks)
+value.WATER_CAUSTICS_DISTANCE.24.0=Low (24 blocks)
+value.WATER_CAUSTICS_DISTANCE.32.0=Medium (32 blocks)
+value.WATER_CAUSTICS_DISTANCE.48.0=High (48 blocks)
+value.WATER_CAUSTICS_DISTANCE.64.0=Extreme (64 blocks)
+screen.WATER_SURFACE_NOISE=Noise wave settings
+
 screen.ATMOSPHERE_CLOUDS=Atmosphere & clouds
+option.PLANAR_CLOUD_LAYERS=Cirrus clouds
+value.PLANAR_CLOUD_LAYERS.0=Off
+value.PLANAR_CLOUD_LAYERS.1=Light (1 layer)
+value.PLANAR_CLOUD_LAYERS.2=Medium (2 layers)
+value.PLANAR_CLOUD_LAYERS.3=Heavy (3 layers)
+value.PLANAR_CLOUD_LAYERS.4=Extreme (4 layers)
+option.VANILLA_CLOUDS=Blocky (vanilla) clouds
+option.BORDER_FOG=Border (render distance) fog
+option.ATMOSPHERE_FOG_STRENGTH_NOON=Atmospheric fog at noon
+option.ATMOSPHERE_MODEL=Atmosphere
+value.ATMOSPHERE_MODEL.MINISHITA=Semi-realistic (Nishita)
+value.ATMOSPHERE_MODEL.GRADIENT=Gradient
+screen.LEGACY_ATMOSPHERE=Gradient atmosphere settings
+
 screen.LIGHTING=Lighting & shadows
 screen.DEVELOPMENT=Development & debugging
 
@@ -82,3 +122,4 @@ option.SURFACE_COLORS.comment=When None, the object's base color is \
 	remains green. \
 	Useful for debugging lighting. \
 	Alpha testing is still applied.
+option.SKY_DITHER=Sky dithering strength
