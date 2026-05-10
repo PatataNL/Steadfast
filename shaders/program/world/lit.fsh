@@ -80,7 +80,7 @@ uniform mat4 gbufferModelViewInverse;
 
 // Distant Horizons terrain is rendered with a different projection matrix, and
 // we must be aware of it in our transformations.
-#ifdef DH_TERRAIN
+#if defined(DH_TERRAIN)
 	uniform mat4 dhProjection;
 	uniform mat4 dhProjectionInverse;
 	uniform sampler2D dhDepthTex1;
