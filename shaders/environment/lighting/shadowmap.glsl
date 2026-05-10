@@ -87,11 +87,7 @@ const float entityShadowDistanceMul = 0.25;
 #endif
 
 #ifdef WATER_CAUSTICS
-	#include "/environment/water/caustics_noise.glsl"
-
-	// Distance in meters to apply parallax mapping to the water surface. 
-	#define WATER_CAUSTICS_DISTANCE 48.0 // [8.0 16.0 24.0 32.0 48.0 64.0]
-#endif
+#include "/environment/water/caustics_noise.glsl"
 
 float SampleWaterCaustics(
 	float shadowSample,
@@ -99,6 +95,9 @@ float SampleWaterCaustics(
 	vec2 shadowPos,
 	vec3 cameraRelativePos
 ) {
+	// Distance in meters to apply parallax mapping to the water surface.
+	#define WATER_CAUSTICS_DISTANCE 48.0 // [8.0 16.0 24.0 32.0 48.0 64.0]
+
 	// This method of water caustics depends on the shadow map for water depth
 	// information, which is not available outside of the shadow map render
 	// distance.
@@ -179,6 +178,8 @@ float SampleWaterCaustics(
 	float caustics = WaterCaustics(worldPos, timeSeconds);
 	return shadowSample * max(0.0, 1.0 + causticsStrength * caustics);
 }
+
+#endif /* WATER_CAUSTICS */
 
 float ShadowMapping(
 	uint materialID,
