@@ -14,14 +14,24 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-out float isstars;
+flat out float isstars;
+
+#ifdef MC_RENDER_STAGE_STARS
+	uniform int renderStage;
+#endif
 
 void main() {
 	gl_Position = ftransform();
 
-	// Star detection from https://github.com/shaderLABS/Base-120
-	// File: /shaders/gbuffers_skybasic.vsh
-	isstars = float(gl_Color.r == gl_Color.g
-		&& gl_Color.g == gl_Color.b
-		&& gl_Color.r > 0.0);
+	#ifdef MC_RENDER_STAGE_STARS
+		bool stars = renderStage == MC_RENDER_STAGE_STARS;
+	#else
+		// Fallback star detection from https://github.com/shaderLABS/Base-120
+		// File: /shaders/gbuffers_skybasic.vsh
+		bool stars = gl_Color.r == gl_Color.g
+			&& gl_Color.g == gl_Color.b
+			&& gl_Color.r >= 0.5;
+	#endif
+
+	isstars = float(stars);
 }

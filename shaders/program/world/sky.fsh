@@ -30,7 +30,7 @@ uniform mat4 gbufferProjectionInverse;
 uniform vec2 windowToNdc;
 uniform float blindness;
 
-in float isstars;
+flat in float isstars;
 
 // Moves the sky dither pattern across the screen rapidly to reveal excessive
 // dithering
