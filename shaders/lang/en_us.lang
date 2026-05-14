@@ -1,28 +1,28 @@
-option.STEADFAST=Steadfast Shaders
-option.STEADFAST.comment=Made by coderbot16, the original developer of Iris. \
-	This is a closed alpha release - §c§lplease do not redistribute in public!
-value.STEADFAST.BY_CODERBOT=by coderbot16
-profile.MINISHITA_HIGH=§aMinishita (WIP)§r style - §b🔥 High§r
-profile.MINISHITA_HIGH=§aMinishita (WIP)§r style - §b🔥 High§r
-profile.MINISHITA_MEDIUM=§aMinishita (WIP)§r style - §a» Medium§r
-profile.MINISHITA_LOW=§aMinishita (WIP)§r style - §e↓ Low§r
-profile.MINISHITA_TOASTER=§aMinishita (WIP)§r style - §c▶ Toaster§r
-profile.PARAGON_HIGH=§a★ Paragon§r style - §b🔥 High§r
-profile.PARAGON_MEDIUM=§a★ Paragon§r style - §a» Medium§r
-profile.PARAGON_LOW=§a★ Paragon§r style - §e↓ Low§r
-profile.PARAGON_TOASTER=§a★ Paragon§r style - §c▶ Toaster§r
-profile.FANTASY_HIGH=§d🪄 Fantasy§r style - §b🔥 High§r
-profile.FANTASY_MEDIUM=§d🪄 Fantasy§r style - §a» Medium§r
-profile.FANTASY_LOW=§d🪄 Fantasy§r style - §e↓ Low§r
-profile.FANTASY_TOASTER=§d🪄 Fantasy§r style - §c▶ Toaster§r
-profile.SEMI_NATURAL_HIGH=§b🗻 Semi-Natural§r style - §b🔥 High§r
-profile.SEMI_NATURAL_MEDIUM=§b🗻 Semi-Natural§r style - §a» Medium§r
-profile.SEMI_NATURAL_LOW=§b🗻 Semi-Natural§r style - §e↓ Low§r
-profile.SEMI_NATURAL_TOASTER=§b🗻 Semi-Natural§r style - §c▶ Toaster§r
-profile.RETRO_MEDIUM=§6😎 Retro§r style - §a» Medium§r
-profile.RETRO_LOW=§6😎 Retro§r style - §e↓ Low§r
-profile.RETRO_TOASTER=§6😎 Retro§r style - §c▶ Toaster§r
-profile.comment=\
+option.STEADFAST			= Steadfast Shaders
+option.STEADFAST.comment	= Made by coderbot16, the original developer of Iris. \
+							  This is a closed alpha release - §c§lplease do not redistribute in public!
+value.STEADFAST.BY_CODERBOT	= by coderbot16
+profile.MINISHITA_HIGH		= §aMinishita (WIP)§r style - §b🔥 High§r
+profile.MINISHITA_HIGH		= §aMinishita (WIP)§r style - §b🔥 High§r
+profile.MINISHITA_MEDIUM	= §aMinishita (WIP)§r style - §a» Medium§r
+profile.MINISHITA_LOW		= §aMinishita (WIP)§r style - §e↓ Low§r
+profile.MINISHITA_TOASTER	= §aMinishita (WIP)§r style - §c▶ Toaster§r
+profile.PARAGON_HIGH		= §a★ Paragon§r style - §b🔥 High§r
+profile.PARAGON_MEDIUM		= §a★ Paragon§r style - §a» Medium§r
+profile.PARAGON_LOW			= §a★ Paragon§r style - §e↓ Low§r
+profile.PARAGON_TOASTER		= §a★ Paragon§r style - §c▶ Toaster§r
+profile.FANTASY_HIGH		= §d🪄 Fantasy§r style - §b🔥 High§r
+profile.FANTASY_MEDIUM		= §d🪄 Fantasy§r style - §a» Medium§r
+profile.FANTASY_LOW			= §d🪄 Fantasy§r style - §e↓ Low§r
+profile.FANTASY_TOASTER		= §d🪄 Fantasy§r style - §c▶ Toaster§r
+profile.SEMI_NATURAL_HIGH	= §b🗻 Semi-Natural§r style - §b🔥 High§r
+profile.SEMI_NATURAL_MEDIUM = §b🗻 Semi-Natural§r style - §a» Medium§r
+profile.SEMI_NATURAL_LOW	= §b🗻 Semi-Natural§r style - §e↓ Low§r
+profile.SEMI_NATURAL_TOASTER= §b🗻 Semi-Natural§r style - §c▶ Toaster§r
+profile.RETRO_MEDIUM		= §6😎 Retro§r style - §a» Medium§r
+profile.RETRO_LOW			= §6😎 Retro§r style - §e↓ Low§r
+profile.RETRO_TOASTER		= §6😎 Retro§r style - §c▶ Toaster§r
+profile.comment				= \
 	§a★ Paragon§r: The flagship style of Steadfast.. \
 	Colorful and pleasing, Paragon unifies the Semi-Natural (daytime) and \
 	Fantasy (nighttime) styles and is the very best that Steadfast has to \
@@ -43,67 +43,96 @@ profile.comment=\
 	\
 	§b🔥 High§r / §a» Medium§r / §e↓ Low§r / §c▶ Toaster§r - Pre-tuned \
 	tradeoffs between quality and performance allowing you to adapt Steadfast \
-	to your device..
+	to your device.
 
-screen.EFFECTS=Effects & post-processing
-option.GODRAYS=Godrays
-option.NIGHT_DESATURATION_EFFECT=Night desaturation (Purkinje)
-option.TONEMAP=Tonemap
-value.TONEMAP.TONEMAP_UCHIMURA=Uchimura (Gran Turismo)
-value.TONEMAP.TONEMAP_UNCHARTED2=Hable (Uncharted 2)
-option.SATURATED_TONEMAP=Satured Hable Tonemap
-option.WAVING_FOLIAGE=Waving foliage (wind)
+screen.EFFECTS			 = Effects & Post-Processing
+screen.WATER			 = Water & Stained Glass
+screen.ATMOSPHERE_CLOUDS = Atmosphere & Clouds
+screen.LIGHTING			 = Lighting & Shadows
+screen.DEVELOPMENT		 = Development & Debugging
 
-screen.WATER=Water & stained glass
-option.SCREENSPACE_REFLECTIONS=Reflections (screen-space)
-option.SCREENSPACE_REFRACTION=Refraction (screen-space)
-option.WATER_SURFACE=Water surface
-value.WATER_SURFACE.NOISE=Waves (noise)
-value.WATER_SURFACE.BASIC=Waves (basic)
-option.FANCY_TRANSLUCENTS=All water/ice effects
-option.VANILLA_ISH_WATER=Vanilla-like water texture
-option.WATER_CAUSTICS=Underwater Caustics
-option.NUM_CAUSTICS=Number of caustic waves
-option.WATER_CAUSTICS_DISTANCE=Caustics Distance
-value.WATER_CAUSTICS_DISTANCE.8.0=Minimum (8 blocks)
-value.WATER_CAUSTICS_DISTANCE.16.0=Very Low (16 blocks)
-value.WATER_CAUSTICS_DISTANCE.24.0=Low (24 blocks)
-value.WATER_CAUSTICS_DISTANCE.32.0=Medium (32 blocks)
-value.WATER_CAUSTICS_DISTANCE.48.0=High (48 blocks)
-value.WATER_CAUSTICS_DISTANCE.64.0=Extreme (64 blocks)
-screen.WATER_SURFACE_NOISE=Noise wave settings
+option.SURFACE_COLORS		 	  = Surface Colors
+value.SURFACE_COLORS.STANDARD  	  = Standard
+value.SURFACE_COLORS.NONE	  	  = None (whiteworld)
+value.SURFACE_COLORS.VERTEX_COLOR = Vertex color (foliage)
+option.SURFACE_COLORS.comment	  = When None, the object's base color is \
+	disregarded in favor of simply treating every surface as white. \
+	With vertex color, only the texture color is disregarded, so foliage \
+	remains green. \
+	Useful for debugging lighting. \
+	Alpha testing is still applied.
 
-screen.ATMOSPHERE_CLOUDS=Atmosphere & clouds
-option.PLANAR_CLOUD_LAYERS=Cirrus clouds
-value.PLANAR_CLOUD_LAYERS.0=Off
-value.PLANAR_CLOUD_LAYERS.1=Light (1 layer)
-value.PLANAR_CLOUD_LAYERS.2=Medium (2 layers)
-value.PLANAR_CLOUD_LAYERS.3=Heavy (3 layers)
-value.PLANAR_CLOUD_LAYERS.4=Extreme (4 layers)
-option.VANILLA_CLOUDS=Blocky (vanilla) clouds
-option.BORDER_FOG=Border (render distance) fog
-option.ATMOSPHERE_FOG_STRENGTH_NOON=Atmospheric fog at noon
-option.ATMOSPHERE_MODEL=Atmosphere
-value.ATMOSPHERE_MODEL.MINISHITA=Semi-realistic (Nishita)
-value.ATMOSPHERE_MODEL.GRADIENT=Gradient
-screen.LEGACY_ATMOSPHERE=Gradient atmosphere settings
+option.GODRAYS					 = Godrays
+option.NIGHT_DESATURATION_EFFECT = Night Desaturation Effect
+option.SATURATED_TONEMAP         = Saturated Tonemap
 
-screen.LIGHTING=Lighting & shadows
-screen.DEVELOPMENT=Development & debugging
+option.FANCY_TRANSLUCENTS		 = Fancy Translucents
+option.VANILLA_ISH_WATER         = Vanilla-ish Water
+option.SCREENSPACE_REFLECTIONS   = Water Reflections
+option.SCREENSPACE_REFRACTION    = Water Refractions
+option.WATER_PARALLAX			 = Water Parallax
+option.WATER_PARALLAX_DISTANCE	 = Parallax Distance
+suffix.WATER_PARALLAX_DISTANCE   = m
+option.WATER_AA					 = Water Anti-Aliasing
+value.WATER_AA.OFF				 = None
+value.WATER_AA.LOW				 = Low
+value.WATER_AA.BALANCED			 = Balanced
+value.WATER_AA.HIGH				 = High
+option.WATER_SURFACE			 = Water Surface
+value.WATER_SURFACE.BASIC		 = Basic
+value.WATER_SURFACE.NOISE		 = Noise
+option.NUM_CRESTS				 = Wave Crests
+option.NUM_CRESTS.comment		 = Large sweeping wave patterns.\n\nOnly works when using the Noise water surface type!
+option.NUM_RIPPLES				 = Wave Ripples
+option.NUM_RIPPLES.comment		 = Smaller-scale wave details.\n\nOnly works when using the Noise water surface type!
+option.NUM_CAUSTICS				 = Wave Caustics
+option.NUM_CAUSTICS.comment		 = Configures the detail seen in water caustics.\n\nOnly works when using water caustics and the Noise water surface type!
+option.WATER_CAUSTICS			 = Water Caustics
+option.WATER_CAUSTICS_DISTANCE   = Caustics Distance
+option.WATER_CHARACTER			 = Water Color Character
+value.WATER_CHARACTER.COLD		 = Cold
+value.WATER_CHARACTER.BALANCED   = Balanced
+value.WATER_CHARACTER.TROPICAL   = Tropical
+option.DARK_UNDERWATER           = Underwater Brightness
+option.WATER_ABSORPTION_METHOD   = Water Absorption
+value.WATER_ABSORPTION_METHOD.NO_ABSORPTION 	  = None
+value.WATER_ABSORPTION_METHOD.REFRACTION_ASSISTED = Refraction Assisted
 
-option.shadowDistance=Shadow Distance
-value.shadowDistance.32.0=Minimum (2 chunks)
-value.shadowDistance.48.0=Very Low (3 chunks)
-value.shadowDistance.64.0=Low (4 chunks)
-value.shadowDistance.80.0=Low (5 chunks)
-value.shadowDistance.96.0=Low (6 chunks)
-value.shadowDistance.112.0=Medium (7 chunks)
-value.shadowDistance.128.0=Medium (8 chunks)
-value.shadowDistance.144.0=Medium (9 chunks)
-value.shadowDistance.160.0=Normal (10 chunks)
-value.shadowDistance.192.0=High (12 chunks)
-value.shadowDistance.256.0=Extreme (16 chunks)
-option.shadowDistance.comment=The shadow render distance controls how far away \
+option.DAY_ATMOSPHERE				= Atmosphere Style - Day
+option.NIGHT_ATMOSPHERE				= Atmosphere Style - Night
+option.HARDER_HORIZON_DAY		 	= Harder Horizon - Day
+option.HARDER_HORIZON_NIGHT		 	= Harder Horizon - Night
+option.BORDER_FOG				 	= Border Fog
+option.ATMOSPHERE_FOG_STRENGTH_NOON = Noon Atmospheric Fog Intensity
+option.PLANAR_CLOUD_LAYERS		 	= Planar Cloud Layers
+
+option.DAY_SKY_LIGHTING			 	= Sky Lighting - Day
+value.DAY_SKY_LIGHTING.FANTASY   	= Fantasy
+value.DAY_SKY_LIGHTING.SEMI_NATURAL = Semi-Natural
+value.DAY_SKY_LIGHTING.RETRO    	= Retro
+option.NIGHT_SKY_LIGHTING			  = Sky Lighting - Night
+value.NIGHT_SKY_LIGHTING.FANTASY   	  = Fantasy
+value.NIGHT_SKY_LIGHTING.SEMI_NATURAL = Semi-Natural
+value.NIGHT_SKY_LIGHTING.RETRO    	  = Retro
+option.ORANGER_BLOCKLIGHT		 	= Warmer Blocklight
+option.HELD_BLOCK_LIGHTING		 	= Handheld Lighting
+option.DIRECTIONAL_SKYLIGHT_SHADING = Directional Shading
+option.REAL_TIME_SHADOWS		 	= Shadows
+option.shadowMapResolution		 	= Shadowmap Resolution
+suffix.shadowMapResolution		 	= px²
+option.shadowDistance		 	 	= Shadow Distance
+value.shadowDistance.32	 		 	= Minimum (2 chunks)
+value.shadowDistance.48	 	 	 	= Very Low (3 chunks)
+value.shadowDistance.64	 	 	 	= Low (4 chunks)
+value.shadowDistance.80		 	 	= Low (5 chunks)
+value.shadowDistance.96	 	 	 	= Low (6 chunks)
+value.shadowDistance.112	 	 	= Medium (7 chunks)
+value.shadowDistance.128	 	 	= Medium (8 chunks)
+value.shadowDistance.144	 	 	= Medium (9 chunks)
+value.shadowDistance.160	 	 	= Normal (10 chunks)
+value.shadowDistance.192	 	 	= High (12 chunks)
+value.shadowDistance.256	 	 	= Extreme (16 chunks)
+option.shadowDistance.comment	 	= The shadow render distance controls how far away \
 	terrain can potentially cast or receive real-time shadows.\n\n\
 	Terrain outside of this distance will cast and receive approximate, static \
 	shadows based on skylight.\n\n\
@@ -111,15 +140,9 @@ option.shadowDistance.comment=The shadow render distance controls how far away \
 	rates.\n\n\
 	The actual shadow render distance is capped by the View Distance setting \
 	in Video Settings..
-
-option.SURFACE_COLORS=Surface colors
-value.SURFACE_COLORS.STANDARD=Standard
-value.SURFACE_COLORS.NONE=None (whiteworld)
-value.SURFACE_COLORS.VERTEX_COLOR=Vertex color (foliage)
-option.SURFACE_COLORS.comment=When None, the object's base color is \
-	disregarded in favor of simply treating every surface as white. \
-	With vertex color, only the texture color is disregarded, so foliage \
-	remains green. \
-	Useful for debugging lighting. \
-	Alpha testing is still applied.
-option.SKY_DITHER=Sky dithering strength
+option.REAL_TIME_ENTITY_SHADOWS  	  = Entity Shadows
+option.REAL_TIME_BLOCK_ENTITY_SHADOWS = Block Entity Shadows
+option.SOFTER_SHADOWS				  = Soft Shadows
+option.SHADOW_SOFTNESS				  = Shadow Softness
+option.SHADOW_DISTORT_FACTOR		  = Shadow Distort Factor
+option.SHADOW_DISTORT_FACTOR.comment  = Higher values skew shadow quality more towards the player, causing distant shadows to be lower quality..\ Lower values divide quality more evenly..
