@@ -104,6 +104,7 @@ option.HARDER_HORIZON_DAY		 	= Harder Horizon - Day
 option.HARDER_HORIZON_NIGHT		 	= Harder Horizon - Night
 option.BORDER_FOG				 	= Border Fog
 option.ATMOSPHERE_FOG_STRENGTH_NOON = Noon Atmospheric Fog Intensity
+option.VANILLA_CLOUDS				= Vanilla Clouds
 option.PLANAR_CLOUD_LAYERS		 	= Planar Cloud Layers
 
 option.DAY_SKY_LIGHTING			 	= Sky Lighting - Day
